@@ -13,3 +13,20 @@ orgs:
     location: ""
     members_can_create_repositories: false
     name: ""
+    repos:
+      org-peribolos-config:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+    teams:
+      org-peribolos-config-codeowners:
+        description: Codeowners for the org-peribolos-config repository
+        members:
+        - stephengrier
+        - stephengrier-org-bot
+        privacy: closed
+        repos:
+          org-peribolos-config: write
